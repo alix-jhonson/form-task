@@ -20,7 +20,7 @@ public function store(Request $request)
         // Store data into private_registrations table
         private_registration::create($request->except('_token', 'type'));
     }
-    // Redirect or do something after data is stored
+        // Redirect or do something after data is stored
       return redirect()->route('search');
 }
 public function searchForm()
