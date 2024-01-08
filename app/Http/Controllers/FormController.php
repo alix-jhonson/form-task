@@ -43,6 +43,6 @@ public function performSearch(Request $request)
             }
     
     $success = 'User found successfully.';
-    return redirect('search')->with('success', 'User found successfully.'); 
+    return redirect('search')->with('success', 'User found successfully. '); 
 }
 }
