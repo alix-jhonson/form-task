@@ -42,7 +42,7 @@ public function performSearch(Request $request)
              return redirect('search')->with('no-results', 'Please add the details of the user or company that was not found.');
             }
     
-    $success = 'User found successfully.';
+    $success = 'User found successfully.' ;
     return redirect('search')->with('success', 'User found successfully.'); 
 }
 }
